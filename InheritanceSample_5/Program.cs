@@ -6,15 +6,14 @@ namespace InheritanceSample_6
     {
         static void Main(string[] args)
         {
-            var derived1 = new MyClassDerived1();
+            MyClassDerived1 derived1 = new MyClassDerived1();
 
             MyClassBase myClass1 = derived1;
-
-            MyClassDerived1 myClass2 = derived1;
 
             // MyClassBase myClassBase = Test(myClass);
 
             var derived2 = new MyClassDerived2();
+
             // MyClassDerived1 = derived2;
         }
 

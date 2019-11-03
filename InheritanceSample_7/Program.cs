@@ -6,7 +6,7 @@ namespace InheritanceSample_7
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            MyClass myClass = new MyClass();
 
             var name = myClass.Name();
 

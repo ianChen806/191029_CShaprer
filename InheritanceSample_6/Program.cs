@@ -6,10 +6,10 @@ namespace InheritanceSample_5
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            MyClass myClass = new MyClass();
 
             var name = myClass.Name();
-            
+
             Console.WriteLine(name);
         }
     }
@@ -26,8 +26,7 @@ namespace InheritanceSample_5
     {
         public override string Name()
         {
-            Console.WriteLine("Class");
-            return base.Name();
+            return "Class";
         }
     }
 }
