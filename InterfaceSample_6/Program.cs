@@ -1,31 +1,45 @@
-﻿namespace InterfaceSample_6
+﻿using System;
+using System.Collections.Generic;
+
+namespace InterfaceSample_5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            // var repository1 = new IRepository();
+
+            var repository = new MemoryRepository();
+            repository.Insert(1, "Test");
+            repository.Get(1);
+            repository.Dispose();
         }
     }
 
-    interface IMyInterface
+    interface IRepository
     {
-        string Name { get; set; }
+        void Insert(int id, string message);
+
+        string Get(int id);
     }
 
-    interface IMyInterface2
+    class MemoryRepository : IRepository, IDisposable
     {
-        int Id { get; set; }
+        private Dictionary<int, string> _dictionary = new Dictionary<int, string>();
 
-        string Name { get; set; }
-    }
+        public void Insert(int id, string message)
+        {
+            _dictionary.Add(id, message);
+        }
 
-    internal class MyClass : IMyInterface, IMyInterface2
-    {
-        public int Id { get; set; }
+        public string Get(int id)
+        {
+            return _dictionary[id];
+        }
 
-        string IMyInterface2.Name { get; set; }
-
-        string IMyInterface.Name { get; set; }
+        public void Dispose()
+        {
+            _dictionary = new Dictionary<int, string>();
+        }
     }
 }
