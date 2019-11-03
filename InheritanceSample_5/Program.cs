@@ -1,33 +1,39 @@
 ﻿using System;
 
-namespace InheritanceSample_5
+namespace InheritanceSample_6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            var derived1 = new MyClassDerived1();
 
-            var name = myClass.Name();
-            
-            Console.WriteLine(name);
+            MyClassBase myClass1 = derived1;
+
+            MyClassDerived1 myClass2 = derived1;
+
+            // MyClassBase myClassBase = Test(myClass);
+
+            var derived2 = new MyClassDerived2();
+            // MyClassDerived1 = derived2;
+        }
+
+        private static MyClassBase Test(MyClassBase myClass)
+        {
+            return myClass;
         }
     }
 
-    internal class MyClassBase
+    class MyClassBase
     {
-        public virtual string Name()
-        {
-            return "Base";
-        }
+        public string Name { get; set; }
     }
 
-    internal class MyClass : MyClassBase
+    class MyClassDerived1 : MyClassBase
     {
-        public override string Name()
-        {
-            Console.WriteLine("Class");
-            return base.Name();
-        }
+    }
+
+    class MyClassDerived2 : MyClassBase
+    {
     }
 }
