@@ -9,4 +9,9 @@ namespace InheritanceSample_10
             Console.WriteLine("Hello World!");
         }
     }
+
+    internal abstract class MyClassBase
+    {
+        protected abstract string Name();
+    }
 }
