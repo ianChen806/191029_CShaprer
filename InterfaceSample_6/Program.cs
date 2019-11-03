@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InterfaceSample_6
+﻿namespace InterfaceSample_6
 {
     class Program
     {
