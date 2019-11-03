@@ -16,23 +16,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSample_8", "Interf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSample_5", "InterfaceSample_5\InterfaceSample_5.csproj", "{2A122830-124F-4D83-BD98-5F60CBE8D5F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_1", "InheritanceSample_1\InheritanceSample_1.csproj", "{736F65A9-B731-4C7E-BEE4-04C0B4EA62FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_01", "InheritanceSample_01\InheritanceSample_01.csproj", "{736F65A9-B731-4C7E-BEE4-04C0B4EA62FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_2", "InheritanceSample_2\InheritanceSample_2.csproj", "{DDE3E1E0-51EC-418B-B5FC-D97B9A308C4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_02", "InheritanceSample_02\InheritanceSample_02.csproj", "{DDE3E1E0-51EC-418B-B5FC-D97B9A308C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_3", "InheritanceSample_3\InheritanceSample_3.csproj", "{80333357-03EC-44F1-A350-987E8F68DF69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_03", "InheritanceSample_03\InheritanceSample_03.csproj", "{80333357-03EC-44F1-A350-987E8F68DF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_4", "InheritanceSample_4\InheritanceSample_4.csproj", "{0275B38A-DBE2-4857-A8B5-6EE36E91C8E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_04", "InheritanceSample_04\InheritanceSample_04.csproj", "{0275B38A-DBE2-4857-A8B5-6EE36E91C8E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_6", "InheritanceSample_6\InheritanceSample_6.csproj", "{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_06", "InheritanceSample_06\InheritanceSample_06.csproj", "{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_5", "InheritanceSample_5\InheritanceSample_5.csproj", "{5849E68A-35F8-4389-8B8C-DC435F117A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_05", "InheritanceSample_05\InheritanceSample_05.csproj", "{5849E68A-35F8-4389-8B8C-DC435F117A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_7", "InheritanceSample_7\InheritanceSample_7.csproj", "{11579DBE-EA2E-495F-A9E9-2D7DF3D31A94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_07", "InheritanceSample_07\InheritanceSample_07.csproj", "{11579DBE-EA2E-495F-A9E9-2D7DF3D31A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_8", "InheritanceSample_8\InheritanceSample_8.csproj", "{08EDFFA5-0CA7-4CD3-82F2-0D40E7D2EB1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_08", "InheritanceSample_08\InheritanceSample_08.csproj", "{08EDFFA5-0CA7-4CD3-82F2-0D40E7D2EB1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_9", "InheritanceSample_9\InheritanceSample_9.csproj", "{0B48AB14-F2E8-4259-9272-03561CFE3AEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_09", "InheritanceSample_09\InheritanceSample_09.csproj", "{0B48AB14-F2E8-4259-9272-03561CFE3AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_10", "InheritanceSample_10\InheritanceSample_10.csproj", "{B24A18A9-DEE0-4923-B70D-01AD95EC3638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -108,5 +110,9 @@ Global
 		{0B48AB14-F2E8-4259-9272-03561CFE3AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B48AB14-F2E8-4259-9272-03561CFE3AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B48AB14-F2E8-4259-9272-03561CFE3AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24A18A9-DEE0-4923-B70D-01AD95EC3638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24A18A9-DEE0-4923-B70D-01AD95EC3638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24A18A9-DEE0-4923-B70D-01AD95EC3638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24A18A9-DEE0-4923-B70D-01AD95EC3638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
