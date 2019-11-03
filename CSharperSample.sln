@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_4", "Inhe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_5", "InheritanceSample_5\InheritanceSample_5.csproj", "{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSample_6", "InheritanceSample_6\InheritanceSample_6.csproj", "{5849E68A-35F8-4389-8B8C-DC435F117A5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8B5144-7E8C-4947-BA0E-E87A2476C2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5849E68A-35F8-4389-8B8C-DC435F117A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5849E68A-35F8-4389-8B8C-DC435F117A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5849E68A-35F8-4389-8B8C-DC435F117A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5849E68A-35F8-4389-8B8C-DC435F117A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
