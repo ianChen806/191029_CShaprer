@@ -7,49 +7,34 @@ namespace InterfaceSample_3
     {
         static void Main(string[] args)
         {
-            var consoleLogger1 = new ConsoleLogger();
+            ILogger logger;
+            logger = new ConsoleLogger();
+            logger.Log("Test");
 
-            ConsoleLogger consoleLogger2 = new ConsoleLogger();
-
-            ILogger consoleLogger3 = new ConsoleLogger();
-            ILogger consoleLogger4 = new FileLogger();
+            logger = new FileLogger();
+            logger.Log("Test1");
         }
     }
 
     interface ILogger
     {
         void Log(string message);
-
-        void SetName(string name);
     }
 
     class ConsoleLogger : ILogger
     {
-        private string _name;
-
         public void Log(string message)
         {
-            Console.WriteLine($"{_name} {message}");
-        }
-
-        public void SetName(string name)
-        {
-            _name = $"Console.{name}";
+            Console.WriteLine($"{message}");
         }
     }
 
     class FileLogger : ILogger
     {
-        private string _name;
-
         public void Log(string message)
         {
-            File.WriteAllText($"D://{_name}", message);
-        }
-
-        public void SetName(string name)
-        {
-            _name = $"File.{name}";
+            var filePath = $"D://{DateTime.Now.Ticks}.log";
+            File.WriteAllText(filePath, message);
         }
     }
 }
