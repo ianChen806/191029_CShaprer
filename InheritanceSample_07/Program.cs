@@ -9,7 +9,6 @@ namespace InheritanceSample_7
             MyClass myClass = new MyClass();
 
             var name = myClass.Name();
-
             Console.WriteLine(name);
         }
     }
