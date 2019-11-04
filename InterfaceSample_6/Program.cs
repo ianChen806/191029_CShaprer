@@ -12,7 +12,7 @@ namespace InterfaceSample_5
             var repository = new MemoryRepository();
 
             repository.Insert(1, "Test");
-            repository.Get(1);
+            var value = repository.Get(1);
 
             repository.Dispose();
         }
