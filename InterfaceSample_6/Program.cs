@@ -10,8 +10,10 @@ namespace InterfaceSample_5
             // var repository1 = new IRepository();
 
             var repository = new MemoryRepository();
+
             repository.Insert(1, "Test");
             repository.Get(1);
+
             repository.Dispose();
         }
     }
