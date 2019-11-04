@@ -1,4 +1,6 @@
-﻿namespace TypeConvertSample_2
+﻿using System;
+
+namespace TypeConvertSample_2
 {
     class Program
     {
@@ -7,8 +9,10 @@
             MyClassBase myClass1 = new MyClass1();
 
             var myClass2 = myClass1 as MyClass2;
+            Console.WriteLine(myClass2 == null);
 
             var myClass3 = myClass1 is MyClass2;
+            Console.WriteLine(myClass3);
         }
     }
 
