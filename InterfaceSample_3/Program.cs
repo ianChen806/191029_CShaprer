@@ -10,6 +10,8 @@ namespace InterfaceSample_3
             ConsoleLogger consoleLogger = new ConsoleLogger();
             FileLogger fileLogger = new FileLogger();
 
+            //-----
+            
             ILogger logger;
             logger = new ConsoleLogger();
             logger.Log("Test");
