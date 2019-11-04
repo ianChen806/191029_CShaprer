@@ -7,7 +7,7 @@ namespace InterfaceSample_4
     {
         static void Main(string[] args)
         {
-            var consoleLogger = new ConsoleLogger();
+            ConsoleLogger consoleLogger = new ConsoleLogger();
 
             ILogger fileLogger = Test(consoleLogger);
 
