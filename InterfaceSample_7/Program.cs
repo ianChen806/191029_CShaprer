@@ -8,7 +8,7 @@
         }
     }
 
-    interface IMyInterface
+    interface IMyInterface1
     {
         string Name { get; set; }
     }
@@ -20,12 +20,12 @@
         string Name { get; set; }
     }
 
-    internal class MyClass : IMyInterface, IMyInterface2
+    internal class MyClass : IMyInterface1, IMyInterface2
     {
         public int Id { get; set; }
 
         string IMyInterface2.Name { get; set; }
 
-        string IMyInterface.Name { get; set; }
+        string IMyInterface1.Name { get; set; }
     }
 }
