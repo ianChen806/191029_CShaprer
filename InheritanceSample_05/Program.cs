@@ -7,10 +7,9 @@ namespace InheritanceSample_6
         static void Main(string[] args)
         {
             MyClassDerived1 derived1 = new MyClassDerived1();
-
             MyClassBase myClass1 = derived1;
 
-            // MyClassBase myClassBase = Test(myClass);
+            MyClassBase myClassBase = Test(derived1);
 
             var derived2 = new MyClassDerived2();
 
