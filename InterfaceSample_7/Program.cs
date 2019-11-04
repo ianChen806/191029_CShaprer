@@ -10,22 +10,28 @@
 
     interface IMyInterface1
     {
-        string Name { get; set; }
+        string Name();
     }
 
     interface IMyInterface2
     {
         int Id { get; set; }
 
-        string Name { get; set; }
+        string Name();
     }
 
     internal class MyClass : IMyInterface1, IMyInterface2
     {
         public int Id { get; set; }
 
-        string IMyInterface2.Name { get; set; }
+        string IMyInterface2.Name()
+        {
+            return "Name2";
+        }
 
-        string IMyInterface1.Name { get; set; }
+        string IMyInterface1.Name()
+        {
+            return "Name1";
+        }
     }
 }
