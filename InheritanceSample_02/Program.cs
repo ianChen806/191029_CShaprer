@@ -6,15 +6,11 @@ namespace InheritanceSample_2
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass();
+            MyClass myClass = new MyClass();
         }
     }
 
     internal class MyClass
     {
-        public string Name()
-        {
-            return "Name";
-        }
     }
 }
