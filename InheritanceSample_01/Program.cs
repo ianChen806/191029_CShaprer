@@ -6,13 +6,16 @@ namespace InheritanceSample_1
     {
         static void Main(string[] args)
         {
-            var myClass2 = new MyClass2();
+            var derivedClass = new MyDerivedClass();
 
-            Console.WriteLine(myClass2.Name());
+            var name = derivedClass.Name();
+            Console.WriteLine(name);
+
+            var test = derivedClass.Test();
         }
     }
 
-    class MyClass1
+    class MyBaseClass
     {
         public string Name()
         {
@@ -20,7 +23,11 @@ namespace InheritanceSample_1
         }
     }
 
-    class MyClass2 : MyClass1
+    class MyDerivedClass : MyBaseClass
     {
+        public string Test()
+        {
+            return "Derived";
+        }
     }
 }
