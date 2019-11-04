@@ -7,45 +7,41 @@ namespace InterfaceSample_7
         static void Main(string[] args)
         {
             MyClass myClass = new MyClass();
-            // Console.WriteLine(myClass.Name);
 
-            IMyInterface myClass2 = myClass;
-            Console.WriteLine(myClass2.Name);
+            IMyInterface1 myClass2 = myClass;
+            var name1 = myClass2.Name();
+            Console.WriteLine(name1);
 
             IMyInterface2 myClass3 = myClass;
-            Console.WriteLine(myClass3.Name);
+            var name2 = myClass3.Name();
+            Console.WriteLine(name2);
         }
     }
 
-    interface IMyInterface
+    interface IMyInterface1
     {
-        string Name { get; set; }
+        string Name();
     }
 
     interface IMyInterface2
     {
         int Id { get; set; }
 
-        string Name { get; set; }
+        string Name();
     }
 
-    public class MyClass : IMyInterface, IMyInterface2
+    public class MyClass : IMyInterface1, IMyInterface2
     {
-        private string _name2;
-        private string _name1;
-
         public int Id { get; set; }
 
-        string IMyInterface.Name
+        string IMyInterface2.Name()
         {
-            get => "Name1";
-            set => _name1 = value;
+            return "Name2";
         }
 
-        string IMyInterface2.Name
+        string IMyInterface1.Name()
         {
-            get => "Name2";
-            set => _name2 = value;
+            return "Name1";
         }
     }
 }
