@@ -7,6 +7,9 @@ namespace InterfaceSample_3
     {
         static void Main(string[] args)
         {
+            ConsoleLogger consoleLogger = new ConsoleLogger();
+            FileLogger fileLogger = new FileLogger();
+
             ILogger logger;
             logger = new ConsoleLogger();
             logger.Log("Test");
