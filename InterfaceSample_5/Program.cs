@@ -14,4 +14,9 @@ namespace InterfaceSample_5
     {
         string Name2 { get; set; }
     }
+
+    class MyClass : IMyInterface
+    {
+        public string Name2 { get; set; }
+    }
 }
