@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InterfaceSample_7
+namespace InterfaceSample_8
 {
     class Program
     {

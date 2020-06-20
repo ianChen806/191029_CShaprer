@@ -1,4 +1,6 @@
-﻿namespace InterfaceSample_6
+﻿using System;
+
+namespace InterfaceSample_7
 {
     class Program
     {
@@ -26,7 +28,7 @@
 
         string IMyInterface2.Name()
         {
-            return "Name2";
+            return "2";
         }
 
         string IMyInterface1.Name()

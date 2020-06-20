@@ -25,4 +25,11 @@ namespace InheritanceSample_11
             return "Class";
         }
     }
+
+    class MyClassDerived : MyClass
+    {
+        // public override string Name()
+        // {
+        // }
+    }
 }

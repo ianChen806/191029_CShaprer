@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InheritanceSample_1
+namespace InheritanceSample_01
 {
     class Program
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace InheritanceSample_3
+namespace InheritanceSample_03
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var myClassDerived = new MyClassDerived();
+            var myClassDerived = new MyDerived();
         }
     }
 
@@ -26,9 +26,9 @@ namespace InheritanceSample_3
         }
     }
 
-    internal class MyClassDerived : MyClassBase
+    internal class MyDerived : MyClassBase
     {
-        public MyClassDerived()
+        public MyDerived()
         {
             Console.WriteLine("Derived");
         }

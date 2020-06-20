@@ -1,15 +1,15 @@
 ﻿using System;
 
-namespace InheritanceSample_7
+namespace InheritanceSample_07
 {
     class Program
     {
         static void Main(string[] args)
         {
             MyClass myClass = new MyClass();
-
             var name = myClass.Name();
             Console.WriteLine(name);
+           
         }
     }
 

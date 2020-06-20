@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace InheritanceSample_2
+﻿namespace InheritanceSample_02
 {
     class Program
     {
         static void Main(string[] args)
         {
-            MyClass myClass = new MyClass();
+            var myClass = new MyClass();
+            var myClass2 = new MyClass();
         }
     }
 

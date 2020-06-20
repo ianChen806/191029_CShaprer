@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InheritanceSample_6
+﻿namespace InheritanceSample_05
 {
     class Program
     {
@@ -11,7 +9,7 @@ namespace InheritanceSample_6
 
             MyClassBase myClassBase = Test(derived1);
 
-            var derived2 = new MyClassDerived2();
+            MyClassDerived2 derived2 = new MyClassDerived2();
 
             // MyClassDerived1 = derived2;
         }

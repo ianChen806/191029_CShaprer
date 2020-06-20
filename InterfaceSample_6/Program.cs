@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace InterfaceSample_5
+namespace InterfaceSample_6
 {
     class Program
     {
