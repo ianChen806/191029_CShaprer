@@ -6,7 +6,7 @@ namespace InterfaceSample_2
     {
         static void Main(string[] args)
         {
-            var consoleLogger = new ConsoleLogger();
+            ILogger consoleLogger = new ConsoleLogger();
             consoleLogger.Log("Log");
         }
     }

@@ -6,7 +6,9 @@ namespace InterfaceSample_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IMyInterface myClass = new MyClass();
+            myClass.Name2 = "Name";
+            Console.WriteLine(myClass.Name2);
         }
     }
 
