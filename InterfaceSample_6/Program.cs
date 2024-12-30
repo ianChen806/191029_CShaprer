@@ -9,7 +9,7 @@ namespace InterfaceSample_6
         {
             // var repository1 = new IRepository();
 
-            var repository = new MemoryRepository();
+            MemoryRepository repository = new MemoryRepository();
 
             repository.Insert(1, "Test");
             var value = repository.Get(1);
