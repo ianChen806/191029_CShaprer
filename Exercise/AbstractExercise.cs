@@ -37,6 +37,14 @@ public class AbstractExercise
     }
 }
 
+public class PaymentFactory
+{
+    public PayBase Create(PayType type)
+    {
+        throw new NotImplementedException();
+    }
+}
+
 public abstract class PayBase
 {
     // TODO
