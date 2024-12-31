@@ -7,7 +7,7 @@ public class AbstractExercise
 {
     /*
      * 實做一個 工廠
-     * 每個金流有固定的流程, 但是內容不同
+     * 每個金流有固定的流程, 但是要傳送給三方的內容不同
      * 依照傳入 Enum 返回不同的 Payment
      * 目前支援 LinePay 和 ApplePay
      */
